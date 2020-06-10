@@ -1,0 +1,6 @@
+load data
+infile 'Oddzial.csv'
+append into table HURTOWNIA_ODDZIAL
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,NAZWA,NUMER)

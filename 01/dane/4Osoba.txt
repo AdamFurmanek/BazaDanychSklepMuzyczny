@@ -1,0 +1,6 @@
+load data
+infile '4Osoba.csv'
+append into table OSOBA
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,IMIE,NAZWISKO,ID_ADRES)

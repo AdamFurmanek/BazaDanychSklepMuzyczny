@@ -1,0 +1,6 @@
+load data
+infile 'Producent.csv'
+append into table HURTOWNIA_PRODUCENT
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,NAZWA,MIASTO,NUMER)

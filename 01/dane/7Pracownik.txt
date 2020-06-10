@@ -1,0 +1,6 @@
+load data
+infile '7Pracownik.csv'
+append into table PRACOWNIK
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,WYNAGRODZENIE,ID_OSOBA,ID_ODDZIAL)

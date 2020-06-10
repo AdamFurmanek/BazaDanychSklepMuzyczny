@@ -1,0 +1,6 @@
+load data
+infile '6Producent.csv'
+append into table PRODUCENT
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,NAZWA,ID_ADRES)

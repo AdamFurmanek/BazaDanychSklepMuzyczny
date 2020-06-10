@@ -1,0 +1,6 @@
+load data
+infile '10Zamowienie.csv'
+append into table ZAMOWIENIE
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,DATA,ID_KLIENT,ID_PLATNOSC)

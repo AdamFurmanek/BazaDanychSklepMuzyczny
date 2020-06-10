@@ -1,0 +1,6 @@
+load data
+infile '2Instrument.csv'
+append into table INSTRUMENT
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,NAZWA,ID_RODZAJ)

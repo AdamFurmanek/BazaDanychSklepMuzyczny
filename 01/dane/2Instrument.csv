@@ -1,0 +1,77 @@
+"ID","NAZWA","ID_RODZAJ"
+1,"Skrzypce",1
+2,"Altówka",1
+3,"Wiolonczela",1
+4,"Kontrabas",1
+5,"Rebec",2
+6,"Lira da Braccio",2
+7,"Skrzypki Renesansowe",2
+8,"Viola da Gamba",2
+9,"Viola deamore",2
+10,"Skrzypce Barokowe",2
+11,"Suka Bi³gorajska",2
+12,"Gêœle",3
+13,"Basetla",3
+14,"Skrzypce Elektryczne",4
+15,"Kontrabas Elektryczny",4
+16,"Wiolonczela Elektryczna",4
+17,"Altówka Elektryczna",4
+18,"Ba³a³ajka",5
+19,"Band¿ola",5
+20,"Banjo",5
+21,"Cytra",5
+22,"Gitara Klasyczna",5
+23,"Gitara Basowa",5
+24,"Harfa",5
+25,"Kitara",5
+26,"Klawesyn",5
+27,"Kobza",5
+28,"Kora",5
+29,"Koto",5
+30,"Lira",5
+31,"Lutnia",5
+32,"Mandolina",5
+33,"Shamisen",5
+34,"Tar",5
+35,"Ukulele",5
+36,"Cymba³y",6
+37,"Klawikord",6
+38,"Fortepian",6
+39,"Pianino",6
+40,"Keyboard ",6
+41,"Organy",7
+42,"Akordeon",7
+43,"Fisharmonia",7
+44,"Tr¹bka",8
+45,"Tr¹bka Sygna³owa",8
+46,"Róg (Waltornia)",8
+47,"Puzon",8
+48,"Tuba",8
+49,"Sakshorn",8
+50,"Kornet",8
+51,"Suzafon",8
+52,"Helikon",8
+53,"Flet Prosty",9
+54,"Flet Poprzeczny",9
+55,"Flet Piccolo",9
+56,"Obój",9
+57,"Klarnet",9
+58,"Fagot",9
+59,"Kontrafagot",9
+60,"Saksofon",9
+61,"Kot³y ",10
+62,"Bêbny",10
+63,"Gong",11
+64,"Talerze",11
+65,"Ksylofon",12
+66,"Marimba",12
+67,"Dzwonki",13
+68,"Czelestra",13
+69,"Wibrafon",13
+70,"Dzwony Rurowe",14
+71,"Trójk¹t",15
+72,"Kastaniety",16
+73,"Pude³ka Akustyczne",16
+74,"Klekotka",16
+75,"Terkotka ",16
+76,"Grzechotka",16

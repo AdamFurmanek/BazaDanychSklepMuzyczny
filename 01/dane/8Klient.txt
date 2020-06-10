@@ -1,0 +1,6 @@
+load data
+infile '8Klient.csv'
+append into table KLIENT
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,ID_OSOBA)

@@ -1,0 +1,6 @@
+load data
+infile '11Egzemplarz.csv'
+append into table EGZEMPLARZ
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,DATA_PRODUKCJI,CENA,KOSZT,ID_ZAMOWIENIE,ID_PRODUCENT,ID_ODDZIAL,ID_INSTRUMENT)

@@ -1,0 +1,82 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Œr Maj 13 22:54:49 2020
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   Egzemplarz.txt
+Data File:      Egzemplarz.csv
+  Bad File:     Egzemplarz.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table HURTOWNIA_EGZEMPLARZ, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,  O(") CHARACTER            
+                                                      O(")
+ID_ODDZIAL                           NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+ID_PRACOWNIK                         NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+ID_KLIENT                            NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+ID_DATA_PRODUKCJI                    NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+ID_PRODUCENT                         NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+ID_DATA_SPRZEDAZY                    NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+MIASTO_KLIENTA                       NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+MIASTO_SPRZEDAZY                     NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+RODZAJ_INSTRUMENTU                   NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+PLATNOSC                             NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+NAZWA_INSTRUMENTU                    NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+NUMER_ZAMOWIENIA                     NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+CENA                                 NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+KOSZT                                NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+
+Record 10001: Rejected - Error on table HURTOWNIA_EGZEMPLARZ, column ID.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 10002: Rejected - Error on table HURTOWNIA_EGZEMPLARZ, column ID_ODDZIAL.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 10003: Rejected - Error on table HURTOWNIA_EGZEMPLARZ, column ID.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+
+Table HURTOWNIA_EGZEMPLARZ:
+  10000 Rows successfully loaded.
+  3 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 247680 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:         10003
+Total logical records rejected:         3
+Total logical records discarded:        0
+
+Run began on Œr Maj 13 22:54:49 2020
+Run ended on Œr Maj 13 22:54:50 2020
+
+Elapsed time was:     00:00:00.87
+CPU time was:         00:00:00.16

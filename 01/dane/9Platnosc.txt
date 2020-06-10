@@ -1,0 +1,6 @@
+load data
+infile '9Platnosc.csv'
+append into table PLATNOSC
+fields terminated by ','
+OPTIONALLY ENCLOSED BY '"' AND '"'
+(ID,NAZWA)
